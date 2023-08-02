@@ -1,10 +1,10 @@
-# README
+# README Generator
 
-  [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://choosealicense.com/licenses/bsd-2-clause/)
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-orange.svg)](https://choosealicense.com/licenses/bsd-3-clause/)
 
   ## Description
 
-  A command-line application for dynamically generating a README.md file based on user input
+  A command-line application that dynamically generates a README.md file based on user input.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -17,7 +17,7 @@
   
   ## Installation
 
-  npm i
+  npm init
   
   ## Usage
   
@@ -25,11 +25,11 @@
   
   ## Credits
   
-  NA
+  Full-Stack Blog
 
   ## License
 
-  [BSD 2-Clause "Simplified" License](https://choosealicense.com/licenses/bsd-2-clause/) 
+  [BSD 3-Clause "New" or "Revised" License](https://choosealicense.com/licenses/bsd-3-clause/) 
 
   ## Contribute
 
