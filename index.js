@@ -178,10 +178,21 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, generateMarkdown(data), (err) => 
+    err ? console.log(err) : console.log('Success! Your README file is located in the dist folder.')
+    );
 }
 
 // TODO: Create a function to initialize app
 function init() {
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        writeToFile('./dist/README.md', answers);   
+    })
+    .catch((err) => {
+        console.log(err);
+    })
 };
 
 // Function call to initialize app
