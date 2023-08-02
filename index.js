@@ -34,7 +34,6 @@ const questions = [
         message: 'List and provide links to any collaborators, third-party assets and/or tutorials used in creating your project.',
         name: 'credit',
     },
-
     {
         type: 'list',
         message: 'What license is your project using?',

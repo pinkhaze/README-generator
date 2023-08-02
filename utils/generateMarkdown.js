@@ -11,9 +11,10 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
+    // Return hyperlink to license 
     return `[${license.nameStr} License](https://choosealicense.com/licenses/${license.linkStr}/)`;
-  
   }
+  return '';
 };
  
 // TODO: Create a function that returns the license section of README
@@ -61,6 +62,7 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)} 
 
   ## Contribute
+
   Want to contribute? Great!
 
   ${data.contribute}
@@ -71,7 +73,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  Check out the other projects on my GitHub profile at [${data.github}](https://github.com/${data.github}).
+  Check out the other projects on my [GitHub profile](https://github.com/${data.github}).
 
   If you have any questions about the project, please email me at ${data.email}.
 `;
