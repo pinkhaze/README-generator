@@ -58,7 +58,7 @@
 
   Then, answer a series of prompts about your application. After entering information for each prompt, check the `dist` folder to see you newly created README.md file.
 
-  https://github.com/pinkhaze/README-generator/assets/55771228/58509ca9-d191-4d90-87ef-9d90eb20f223
+  https://github.com/pinkhaze/README-generator/assets/55771228/91c86f4a-f27f-4451-86e4-dcba2927822f
 
   ## Credits
   
